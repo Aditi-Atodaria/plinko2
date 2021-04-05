@@ -122,5 +122,6 @@ function mousePressed(){
   if(gameState!=="end"){
    count++;
     particle=new Particle(mouseX,10,10);
+    text("GAMEOVER",100,300);
   }
 }
