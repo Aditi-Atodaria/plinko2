@@ -15,7 +15,7 @@ var gameState = "play"
 var count = 0;
 
 function preload(){
-  bg=loadImage("ball.png");
+  bg=loadImage("ball.jpg");
 }
 
 function setup() {
