@@ -62,7 +62,7 @@ function setup() {
 
 
 function draw() {
-  background(bg);
+  background("black");
   textSize(20)
   text("Score : "+score,20,30);
 
