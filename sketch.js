@@ -14,6 +14,10 @@ var score =0;
 var gameState = "play"
 var count = 0;
 
+function preload(){
+  bg=loadImage("ball.png");
+}
+
 function setup() {
   createCanvas(800, 800);
   engine = Engine.create();
@@ -58,7 +62,7 @@ function setup() {
 
 
 function draw() {
-  background("black");
+  background(bg);
   textSize(20)
   text("Score : "+score,20,30);
 
