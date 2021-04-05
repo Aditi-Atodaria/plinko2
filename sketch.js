@@ -104,10 +104,7 @@ function draw() {
    if(particle!=null){
      particle.display();
    
-     if(gameState === "end"){
-  textSize(100);
-  text("Game Over",150,250);
-}
+    
 
      if(particle.body.position.y>760){
        if(particle.body.position.x<300){
@@ -122,6 +119,11 @@ function draw() {
        }
      }
    }
+  
+   if(gameState === "end"){
+  textSize(100);
+  text("Game Over",150,250);
+}
   }
 
 
